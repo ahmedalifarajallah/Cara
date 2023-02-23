@@ -1,5 +1,5 @@
 # Cara
-Responsive website using HTML &amp; CSS &amp; Bootstrap 
+Responsive website was created using HTML &amp; CSS &amp; Bootstrap 
 
 ##Links
 - [Repo] (<https://github.com/ahmedalifarajallah/Cara/> "Cara")
