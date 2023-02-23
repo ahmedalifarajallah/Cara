@@ -1,0 +1,314 @@
+:root {
+    --bg-color: #e3e6f3;
+    --hover-color: #088178;
+    --r-color:  #ef3636;
+}
+
+/* Start Global */
+a {
+    text-decoration: none;
+}
+
+.section-title p {
+    font-size: 14px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.card .stars {
+    color: rgb( 243, 181, 25);
+}
+
+.card .price {
+    color: var(--hover-color);
+}
+
+.card .shop-icon {
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 6px;
+    background-color: #e8f6ea;
+}
+.card .shop-icon a {
+    color: var(--hover-color);
+}
+/* End Global */
+
+/* Start Navbar */
+.navbar {
+    background: var(--bg-color) !important;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+}
+
+.navbar .collapse .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--hover-color);
+    left: 0%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.navbar .collapse .nav-link:hover {
+    color: var(--hover-color) !important;
+}
+
+.navbar .collapse .nav-link:hover::before  {
+    opacity: 1;
+    left: 8px;
+    width: 40%;
+}
+/* End Navbar */
+
+/* Start Landing-Page */
+.landing-page {
+    height: calc(100vh - 66px);
+    background-image: url("../imgs/hero4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+@media (max-width:768px){
+    .landing-page {
+        background-image: none;
+        background: var(--bg-color);
+    }
+    .landing-page .landing-txt{
+        text-align: center !important;
+    }
+}
+
+.landing-page h1 {
+    font-size: 45px;
+}
+
+.landing-page h1 span {
+    color: var(--hover-color);
+}
+
+.landing-page .landing-txt a {
+    background-image: url("../imgs/button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-decoration: none;
+    color: var(--hover-color);
+}
+/* End Landing-Page */
+
+/* Start Features */
+.features .card p {
+    font-size: 13px;
+    color: var(--hover-color);
+}
+
+.features .card:hover {
+    box-shadow: 8px 10px 8px 0px rgb(70 62 221 / 10%);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.features .card .para-1 {
+    background: #fddde4;
+}
+
+.features .card .para-2 {
+    background: #cdebbc;
+}
+
+.features .card .para-3 {
+    background: #d1e8f2;
+}
+
+.features .card .para-4 {
+    background: #cdd4f8;
+}
+
+.features .card .para-5 {
+    background: #fedbf6;
+}
+
+.features .card .para-6 {
+    background: #fff2e5;
+}
+/* End Features */
+
+/* Start Sail-section */
+.sail {
+    background-image: url("../imgs/b2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sail h2 span {
+    color: var(--r-color);
+}
+
+.sail a {
+    outline: none;
+    border: none;
+}
+.sail a:hover {
+    color: var(--r-color) !important;
+    border: 2px solid var(--r-color);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+/* End Sail-section  */
+
+/* Start Deals-Section */
+.deals .deal {
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.deals .deal a:hover {
+    border: 1px solid var(--r-color) !important;
+    color: var(--r-color) !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.deals .deal h6 {
+    color: var(--r-color);
+}
+
+.deals .box-1 {
+    background-image: url("../imgs/b17.jpg");
+}
+
+.deals .box-2 {
+    background-image: url("../imgs/b10.jpg");
+}
+
+.deals .box-3 {
+    background-image: url("../imgs/b7.jpg");
+}
+
+.deals .box-4 {
+    background-image: url("../imgs/b4.jpg");
+}
+
+.deals .box-5 {
+    background-image: url("../imgs/b18.jpg");
+}
+/* End Deals-Section */
+
+/* Start Sign-up */
+.sign-up {
+    background-image: url("../imgs/b1.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.sign-up .sign-txt p span{
+    color: rgb( 243, 181, 25);
+}
+
+.sign-up .sign-up-content .form .email {
+    outline: none !important;
+    border: none;
+    padding: 10px 30px 10px 20px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.sign-up .form .badge {
+    background: var(--hover-color);
+    padding: 16px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+/* End Sign-up */
+
+/* Start Footer */
+.footer p {
+    font-size: 14px;
+}
+
+.footer .t-info {
+    color: rgb(102, 119, 112);
+}
+
+.footer .icons i {
+    color: #088178;
+}
+
+.footer .colTwo p:hover a,
+.footer .colThree p:hover a {
+    border-bottom: 1px solid;
+}
+
+.footer .icons svg {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+/* Icons Colors */
+.footer .icons .fb:hover svg{
+    color: #1877f2;
+}
+.footer .icons .twitter:hover svg{
+    color: #1da1f2;
+}
+.footer .icons .youtube:hover svg{
+    color: #ff0000;
+}
+.footer .icons .instagram:hover svg{
+    color: #e1306c;
+}
+.footer .icons .google:hover svg{
+    color: #dd4b39;
+}
+
+.footer .stores-img img{
+    border: 1px solid var(--hover-color);
+}
+@media (min-width:768px) {
+    .footer .stores-img {
+        justify-content: start !important;
+    }
+}
+/* End Footer */
