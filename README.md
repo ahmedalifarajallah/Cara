@@ -8,7 +8,7 @@ Responsive website was created using HTML &amp; CSS &amp; Bootstrap
 ## Built With
 - HTML
 - CSS
--Bootstrap
+- Bootstrap
 
 ##Author
 **Ahmed Ali Farajallah**
