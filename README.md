@@ -1,7 +1,7 @@
 # Cara
 Responsive website was created using HTML &amp; CSS &amp; Bootstrap 
 
-##Links
+## Links
 - [Repo] (<https://github.com/ahmedalifarajallah/Cara/> "Cara")
 - [Live] (<https://ahmedalifarajallah.github.io/Cara/>)
 
@@ -10,5 +10,5 @@ Responsive website was created using HTML &amp; CSS &amp; Bootstrap
 - CSS
 - Bootstrap
 
-##Author
+## Author
 **Ahmed Ali Farajallah**
